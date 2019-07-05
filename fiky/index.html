@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Proyek</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="header">
+	
+</div>
+
+<div class="menubar">
+		<ul>
+			<li><a href="news.html">News</a></li>
+			<li><a href="tamu.php"><b>Data Tamu</b></a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+</div>	
+
+<div class="menu1">
+	<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="https://www.instagram.com/">Profil Saya</a></li>
+	</ul>
+</div>
+
+<div class="menu2">
+	<center>
+		<br><br>
+		<h1>Welcome to the official Website of Ahmad Dahlan University</h1>
+		<p>Click Link on top of this website, or on the left side</p>
+		<p>Silahkan Isi Form untuk melanjutkan</p>
+	<form method="post" action="proses.php"> <!-- untuk mengirimkan nilai di proses.php -->
+	<table> <!-- untuk membuat tabel -->
+		<tr> <!-- untuk membuat baris -->
+			<td>Nama</td><td>:</td> <!-- isi dari baris yang berupa nama -->
+			<td><input type="text" name="nama"></td> <!-- untuk menginputkan nama -->
+		</tr>
+		<tr>
+			<td>Password</td><td>:</td> <!-- isi dari baris yang berupa password -->
+			<td><input type="password" name="password"></td> <!-- untuk menginputkan password -->
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td><td>:</td>
+			<td><input type="radio" name="jk" value="Laki-Laki" checked />Laki-Laki <!-- untuk menandai pilihan -->
+			<input type="radio" name="jk" value="Perempuan">Perempuan</td>
+		</tr>
+		<tr>
+			<td>Alamat</td><td>:</td>
+			<td><textarea name="alamat"></textarea></td> <!-- digunakan untuk menampung text inputan -->
+		</tr>
+		<tr>
+			<td>Asal Kota</td><td>:</td>
+			<td>
+			<select name="asal_kota"> <!-- berupa pilihan asal kota -->
+				<option value="Surabaya">Surabaya</option>
+				<option value="Yogyakarta">Yogyakarta</option>
+				<option value="Bogor">Bogor</option>
+				<option value="Lampung">Lampung</option>
+				<option value="Magetan">Magetan</option>
+			</select>	
+			</td>
+		</tr>
+		<tr>
+			<td></td><td></td>
+			<td><input type="submit" name="kirim" value="submit"></td> <!-- untuk menyimpan data yang telah diisi -->
+		</tr>
+	</table>
+	</center>
+</div>
+
+<div class="menu3">
+	<center><p>Designer Web</p>
+	<a target="_blank" href="img/putri.jpg">
+	<img src="img/putri.jpg" width="200" height="300">
+	</center>
+</div>
+
+<div class="footer">
+		
+</div>
+
+</body>
+</html>

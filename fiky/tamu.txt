@@ -1,0 +1,6 @@
+Bella|123|Perempuan|jl abc|Lampung
+Fiky|456|Perempuan|jl cde|Blitar
+Grafita|789|Perempuan|jl fgh|Magetan
+grafita|123|Perempuan|magetan|Yogyakarta
+grafita|12345|Perempuan|jl mangga|Magetan
+grafita|123|Perempuan|karangrejo|Magetan

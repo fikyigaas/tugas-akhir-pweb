@@ -1,0 +1,87 @@
+.header{
+	background-image: url(../img/putri2.jpg); /* untuk menentukan gambar di bagian kepala web */
+	background-repeat: no-repeat;		
+	height: 140px; /* untuk menentukan tinggi */
+	width: 100%; /* untuk menentukan lebar */
+}
+
+.menubar ul{
+	background-color: #FFFC00; /* untuk menentukan warna */
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+}
+.menubar li{
+	float: left;
+}
+.menubar li a{
+	display: block;
+	text-align: center;
+	padding: 20px 15px;
+	text-decoration: none;
+	font-family: arial;
+	color: white;
+}
+
+.menubar li a:hover{
+	background-color: orange;
+}
+
+.menu1 ul{
+	background-color: #FF9200;
+	width: 15%;
+	height: 400px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.menu1 li a{
+	display: block;
+	text-decoration: none;
+	font-family: arial;
+	padding: 10px 18px;
+}
+.menu1 li a:visited{
+	color:white;
+}
+.menu1 li a:hover{
+	background-color: orange;
+}
+
+.menu2{
+	background-color: white;
+	width: 60%;
+	height: 400px;
+	float: left;
+	
+}
+.menu3{
+	background-color: #FF9200;
+	width: 25%;
+	height: 400px;
+	float: left;
+	margin-bottom: -30px;
+}
+.menu3 p{
+	font-family: arial; /* untuk menentukan jenis huruf */
+}
+
+.footer{
+	background-image: url(../img/); /* untuk menentukan gambar bagian kaki dari web */
+	width: 99%;
+	height: 60px;
+	bottom: 0px;
+	position: absolute;
+	margin-bottom: 1px;
+	padding: 0;
+	overflow: hidden;
+}
+.footer p{
+	color: white;
+	text-align: center;
+	padding: -15px 0 10px 5px;
+}
